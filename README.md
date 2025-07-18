@@ -27,3 +27,23 @@ cd fastapi_market_analyzer
 python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 ```
+
+2️⃣ Install requirements:
+
+pip install -r requirements.txt
+
+3️⃣ Create a .env file (never commit this!):
+
+OPENAI_API_KEY=your_openai_api_key
+NEWSDATA_API_KEY=your_newsdata_api_key
+SECRET_TOKEN=SECRET_TOKEN
+
+✅ Run locally
+
+uvicorn main:app --reload
+
+## 🚀 Live Deployment (Render)
+
+👉 Base URL:
+
+https://fastapi-market-analyzer.onrender.com/
