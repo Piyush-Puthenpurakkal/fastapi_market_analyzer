@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual env
+venv/
+env/
+ENV/
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+*.env
+
+# Pytest
+.pytest_cache/
+
+# Logs
+*.log
+
+# IDEs
+.idea
